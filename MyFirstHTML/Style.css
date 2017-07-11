@@ -1,0 +1,11 @@
+﻿.cssMain {
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    color: red;
+}
+
+.container-fluid {
+    background-color: deepskyblue;
+}
