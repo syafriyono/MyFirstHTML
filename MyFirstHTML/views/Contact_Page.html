@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" initial-sclae="1" />
+    <link rel="stylesheet" href="../Content/bootstrap.min.css" />
+    <script src="../scripts/jquery-1.9.1.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <link href="../Style.css" rel="stylesheet" />
+    <script src="../Main.js"></script>
+</head>
+<body>
+    <!----------------- NAVBAR ------------>
+    <nav>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">Training BootStrap</a>
+            </div>
+            <ul class="nav nav-tabs navbar-nav navbar-right">
+                <li role="presentation"><a href="../index.html">Home</a></li>
+                <li role="presentation"><a href="Profile_Page.html">Profile</a></li>
+                <li role="presentation" class="active"><a href="#">Messages</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!------------------ END NAVBAR --------------->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-md-4">
+                <p id="nama">Riku Kiranatama</p>
+                <div id="pp"><img src="../img/minion.jpg" class="img-circle" alt="profile" width="186" height="186" /></div>
+            </div>
+            <div class="col-xs-8 col-md-8">
+                <div class="row">
+                   <form class="form-horizontal">
+                       <div class="form-group">
+                           <label class="control-label col-xs-2 col-md-2" for="email">Email</label>
+                           <div class="col-md-10 col-xs-2">
+                               <input type="email" class="form-control" id="email" placeholder="Email" />
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <label class="control-label col-xs-2 col-md-2" for="messenger">Messenger</label>
+                           <div class="col-md-10 col-xs-2">
+                               <textarea class="form-control" rows="5" placeholder="Message anda" id="message"></textarea>
+                           </div>
+                       </div>
+                       <button type="submit" class="btn btn-default">Submit</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

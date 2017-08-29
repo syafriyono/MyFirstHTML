@@ -98,6 +98,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="img\gmbr1.jpg" />
+    <Content Include="img\gmbr2.jpg" />
+    <Content Include="img\gmbr3.jpg" />
+    <Content Include="img\minion.jpg" />
     <Content Include="Main.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -130,6 +134,8 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Style.css" />
+    <Content Include="views\Contact_Page.html" />
+    <Content Include="views\Profile_Page.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

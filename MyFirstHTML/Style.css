@@ -6,6 +6,32 @@
     color: red;
 }
 
-.container-fluid {
+nav{
     background-color: deepskyblue;
+}
+
+#pp{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#nama{
+    width: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.row {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+#col {
+    background-color: lightgray;
+    height: 100%;
 }
